@@ -15,6 +15,7 @@ Of course, to avoid typing  a password for each file the script will copy, then 
 [ssh-copy-id](https://www.ssh.com/ssh/copy-id)
 
 ```sh
+export SRC_ROOT=/path/to/top/directory/with/all/yb/projects
 ./deploy.sh ${ENV}
 ```
 
